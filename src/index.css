@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hover{
+  padding: 0px 2px;
+
+}
+.hover:hover{
+ padding: 0px;
+  transition-delay: 0.2s
+  ease-out 100ms;
+}
+
+
+@media screen and (max-width: 600px) {
+  .width{
+    width: 100%;
+  }
+  
+}
